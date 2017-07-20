@@ -1,14 +1,14 @@
-#Week_1
+# Week_1
 >일정 : 7월 20일 (목) ~ 7월 27일 (목)
 
-##To Do
-###알고리즘 기초 part 완료 
+## To Do
+### 알고리즘 기초 part 완료 
 
-##To Debate
+## To Debate
 * 강석윤 : __다이나믹프로그래밍1__ / __그래프__ / __수학__
 * 김민규 : __정렬__ / __자료구조1__ / __트리__
 
-##Tips
+## Tips
 
 * 강석윤 
 	* ex) [스택 1번](https://github.com/1500sheep/DataStructure-Study/)
@@ -18,7 +18,7 @@
 * 김민규  
 
 
-##Progress
+## Progress
 
 * 강석윤 : ex) 스택 1 
 * 김민규 :
