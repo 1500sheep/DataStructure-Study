@@ -11,7 +11,7 @@
 ## Tips
 
 * 강석윤
-	* [10992_sheep1500](https://github.com/1500sheep/DataStructure-Study/week_1/10992_sheep.cpp)
+	* [10992_sheep1500](https://github.com/1500sheep/DataStructure-Study/blob/master/week_1/10992_sheep1500.cpp)
 		* C++ 에서도 C언어 입출력 scanf(), printf()를 쓰면 속도가 더 빨라진다.
 
 
