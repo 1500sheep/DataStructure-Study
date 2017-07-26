@@ -23,7 +23,15 @@
 			3. 예외처리3. Push 실패시 (메모리 할당 실패)
 	* [2751_sheep1500](https://github.com/1500sheep/DataStructure-Study/blob/master/week_1/2751_sheep1500.cpp)
 		* 동일한 파일을 scanf, printf 말고 cin, cout 으로 하면 시간 초과 뜸 cin,cout 쓰면 안되나요ㅜㅜ
-
+	* [10871_sheep1500](https://github.com/1500sheep/DataStructure-Study/blob/master/week_1/10871_sheep1500.cpp)
+		* __[](Person u,Person v){}__ 는 __익명 함수(=람다 식)__을 사용한 것으로써 C++11버전 부터 사용하게 된 익명 함수 객체 호출방법
+		* [람다 개념 및 문법](https://msdn.microsoft.com/ko-kr/library/dd293608.aspx) 
+		
+		```
+		sort(a.begin(), a.end(), [](Person u, Person v) {
+		return (u.age < v.age) || (u.age == v.age && u.join < v.join);
+	});	
+		```
 * 김민규  
 	* [11727_kmk](https://github.com/1500sheep/DataStructure-Study/blob/master/week_1/11727_kmk.cpp)
 		*  백준 알고리즘 문제를 풀 때 "~한 값을 출력하라" 라는 식으로 문제가 나오면 출력할 때 ~하는 게 아니라 미리 값을 수정해놓고 그 값을 출력하는 방식으로 코딩해야 오답처리가 안된다.
@@ -43,5 +51,5 @@
 
 ## Solved
 
-* 강석윤 : 10992, 9012, 1406, 1158, 1463, 11726, 9095, 10844, 2156, 2609, 2751, 11651
+* 강석윤 : 10992, 9012, 1406, 1158, 1463, 11726, 9095, 10844, 2156, 2609, 2751, 11651, 10814
 * 김민규 : 1158, 1406, 1463, 9012, 9095, 10799, 10828, 11052, 	11726, 11727
