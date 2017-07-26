@@ -21,6 +21,8 @@
 			2. 예외처리2. pTop이 Null 일때 Top() 함수를 호출 한 경우
 
 			3. 예외처리3. Push 실패시 (메모리 할당 실패)
+	* [2751_sheep1500](https://github.com/1500sheep/DataStructure-Study/blob/master/week_1/2751_sheep1500.cpp)
+		* 동일한 파일을 scanf, printf 말고 cin, cout 으로 하면 시간 초과 뜸 cin,cout 쓰면 안되나요ㅜㅜ
 
 * 김민규  
 	* [11727_kmk](https://github.com/1500sheep/DataStructure-Study/blob/master/week_1/11727_kmk.cpp)
@@ -41,5 +43,5 @@
 
 ## Solved
 
-* 강석윤 : 10992, 9012, 1406, 1158, 1463, 11726, 9095, 10844, 2156, 2609
+* 강석윤 : 10992, 9012, 1406, 1158, 1463, 11726, 9095, 10844, 2156, 2609, 2751
 * 김민규 : 1158, 1406, 1463, 9012, 9095, 10799, 10828, 11052, 	11726, 11727
