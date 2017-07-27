@@ -29,8 +29,7 @@
 
 		```
 		sort(a.begin(), a.end(), [](Person u, Person v) {
-		return (u.age < v.age) || (u.age == v.age && u.join < v.join);
-	});
+		return (u.age < v.age) || (u.age == v.age && u.join < v.join);});
 		```
 * 김민규  
 	* [11727_kmk](https://github.com/1500sheep/DataStructure-Study/blob/master/week_1/11727_kmk.cpp)
@@ -59,8 +58,8 @@ D[101][11]로 잡아야 뒷칸에서 참조오류가안생김
 * 김민규 :
 	* [11653_kmk](https://github.com/1500sheep/DataStructure-Study/blob/master/week_1/11653_kmk.cpp)
  		* if (N > 1)
-
 		cout << N;
+
 			* 이 부분 정확히 이해가 안됌ㅠㅠ
 ## Progress
 
