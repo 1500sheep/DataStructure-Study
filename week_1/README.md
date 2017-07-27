@@ -24,13 +24,13 @@
 	* [2751_sheep1500](https://github.com/1500sheep/DataStructure-Study/blob/master/week_1/2751_sheep1500.cpp)
 		* 동일한 파일을 scanf, printf 말고 cin, cout 으로 하면 시간 초과 뜸 cin,cout 쓰면 안되나요ㅜㅜ
 	* [10871_sheep1500](https://github.com/1500sheep/DataStructure-Study/blob/master/week_1/10871_sheep1500.cpp)
-		* __[](Person u,Person v){}__ 는 __익명 함수(=람다 식)__을 사용한 것으로써 C++11버전 부터 사용하게 된 익명 함수 객체 호출방법
-		* [람다 개념 및 문법](https://msdn.microsoft.com/ko-kr/library/dd293608.aspx) 
-		
+		* __[](Person u,Person v){}__ 는 __익명 함수(=람다 식)__ 을 사용한 것으로써 C++11버전 부터 사용하게 된 익명 함수 객체 호출방법
+		* [람다 개념 및 문법](https://msdn.microsoft.com/ko-kr/library/dd293608.aspx)
+
 		```
 		sort(a.begin(), a.end(), [](Person u, Person v) {
 		return (u.age < v.age) || (u.age == v.age && u.join < v.join);
-	});	
+	});
 		```
 * 김민규  
 	* [11727_kmk](https://github.com/1500sheep/DataStructure-Study/blob/master/week_1/11727_kmk.cpp)
@@ -38,7 +38,7 @@
 		EX) 방법의 수를 10,007로 나눈 나머지를 출력한다.
         정답) D[i] %= 10007; cout << D[i];
         나의 오류) cout << D[i]%10007;
-    
+
     *  [10844_kmk](https://github.com/1500sheep/DataStructure-Study/blob/master/week_1/kmk_10844.cpp)
     	*  100개면 0 ~ 99니까 100참조하면 오류
 10개면 0 ~ 9니까 10참조하면 오류
@@ -47,21 +47,21 @@ D[101][11]로 잡아야 뒷칸에서 참조오류가안생김
     *  [2193_kmk](https://github.com/1500sheep/DataStructure-Study/blob/master/week_1/kmk_2193)
 		* 나의 오류 : 1<n<90 이라 해서 단순히 D[90]; 을 선언했다. 하지만 D[90]을 선언하면 실질적 인덱스는 89까지 이므로 90의 값에 쓰레기값이 들어간다.
 	따라서 원하는 인덱스값+1 만큼 선언해 주어야 한다.
-    
+
     *  [11005_kmk](https://github.com/1500sheep/DataStructure-Study/blob/master/week_1/11005_kmk)
-    	* reverse(스트링이름.begin(), 스트링이름.end()); 스트링의 순서를 역으로 바꿔준다. 헤더는 #include<algorithm 
+    	* reverse(스트링이름.begin(), 스트링이름.end()); 스트링의 순서를 역으로 바꿔준다. 헤더는 #include<algorithm
     	아스키코드 'A' ==65
-    
+
 ## To ask
 * 강석윤
 	* [11726_sheep1500](https://github.com/1500sheep/DataStructure-Study/blob/master/week_1/11726_sheep1500.cpp)
 		* Top-down 방식으로 풀었는데 계속 틀렸다고 나오네.. 이유가 뭐징
 * 김민규 :
- * [11653_kmk](https://github.com/1500sheep/DataStructure-Study/blob/master/week_1/11653_kmk.cpp)
+	* [11653_kmk](https://github.com/1500sheep/DataStructure-Study/blob/master/week_1/11653_kmk.cpp)
  		* if (N > 1)
-	
+
 		cout << N;
-	*이 부분 정확히 이해가 안됌ㅠㅠ
+			* 이 부분 정확히 이해가 안됌ㅠㅠ
 ## Progress
 
 * 강석윤 : 알고리즘과 입출력, 자료구조1, 정렬
@@ -70,4 +70,4 @@ D[101][11]로 잡아야 뒷칸에서 참조오류가안생김
 ## Solved
 
 * 강석윤 : 10992, 9012, 1406, 1158, 1463, 11726, 9095, 10844, 2156, 2609, 2751, 11651, 10814, 10989
-* 김민규 : 1158, 1406, 1463, 9012, 9095, 10799, 10828, 11052, 	11726, 11727, 10844, 2156, 9465, 2193, 11653, 1978, 2745, 11005 
+* 김민규 : 1158, 1406, 1463, 9012, 9095, 10799, 10828, 11052, 	11726, 11727, 10844, 2156, 9465, 2193, 11653, 1978, 2745, 11005
