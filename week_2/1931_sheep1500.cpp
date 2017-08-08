@@ -4,7 +4,7 @@
 using namespace std;
 
 struct Meeting {
-	int from,to;
+	int from, to;
 };
 
 bool cmp(const Meeting &m1, const Meeting &m2) {
@@ -19,6 +19,7 @@ int main()
 {
 	int n;
 	cin >> n ;
+
 	vector<Meeting> a(n);
 
 	for (int i = 0; i < n; i++) {
