@@ -11,12 +11,6 @@
 ## Tips
 
 * 강석윤
-	* 
-* 김민규  
-	* 
-
-## To ask
-* 강석윤
 	* : [1931_sheep1500.cpp](https://github.com/1500sheep/DataStructure-Study/blob/master/week_2/1931_sheep1500.cpp)
 		* : 정렬 문제인데 고려 해야할 변수가 여러 개 일 경우!
 		 
@@ -34,6 +28,12 @@
 				//sort알고리즘에 bool함수 cmp를 넣으면 여러 변수 일경우 까지 고려한 정렬 가능! 
 		
 				'''
+* 김민규  
+	* 
+
+## To ask
+* 강석윤
+	* :
 * 김민규 :
 	* 
 ## Progress
