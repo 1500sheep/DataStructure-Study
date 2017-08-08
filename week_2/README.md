@@ -17,15 +17,31 @@
 
 ## To ask
 * 강석윤
-	* 
+	* : [1931_sheep1500.cpp](https://github.com/1500sheep/DataStructure-Study/blob/master/week_2/1931_sheep1500.cpp)
+		* : 정렬 문제인데 고려 해야할 변수가 여러 개 일 경우!
+		 
+				'''
+				struct Meeting{
+					int from, to;
+				};
+				bool cmp(const Meeting &1,const Meeting&m2){
+					if(m1.from==m2.from)//같을 경우!
+						return m1.to>m2.to;
+					else m1.from>m2.from;
+				}
+				...
+				sort(a.begin(),a.end(),cmp);
+				//sort알고리즘에 bool함수 cmp를 넣으면 여러 변수 일경우 까지 고려한 정렬 가능! 
+		
+				'''
 * 김민규 :
 	* 
 ## Progress
 
-* 강석윤 : 
+* 강석윤 : 그리디(문제 많이 못 품)
 * 김민규 : 그리디
 
 ## Solved
 
-* 강석윤 : 
+* 강석윤 : 1931
 * 김민규 : 1541 1744 1783 1931 2875 10610 11047 11399
