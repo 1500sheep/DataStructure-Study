@@ -31,7 +31,6 @@ int MIN(vector<int> &tree, int node, int Node_S, int Node_E, int Minimum_L, int 
 	return min(MIN(tree, node * 2, Node_S, (Node_S + Node_E) / 2, Minimum_L, Minimum_R), MIN(tree, node * 2 + 1, (Node_S + Node_E) / 2 + 1, Node_E, Minimum_L, Minimum_R));
 }
 
-
 int main()
 {
 	int n, m, a, b;
